@@ -1,17 +1,6 @@
-body {
+.top-background {
   background: linear-gradient(rgb(81, 130, 252), rgb(7, 50, 160));
 }
-/* .wave {
-  background-image: url('svg/oval2.svg');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 100%;
-  
-} */
-/* .home {
-  background: linear-gradient(rgb(81, 130, 252), rgb(7, 50, 160));
-  height: 1000px;
-} */
 .top {
   background-image: url('svg/oval2.svg');
   background-repeat: no-repeat;
@@ -38,11 +27,12 @@ body {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  margin: 0px 25px;
 }
 .oval-outer {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  width: 350px;
-  height: 350px;
+  width: inherit;
+  height: inherit;
   background: #ffb2e8;
   background-image: url('svg/open-doodles-plant.png');
   background-repeat: no-repeat;
@@ -55,6 +45,7 @@ body {
   font-weight: 600;
   width: 50%;
 }
+
 .content {
   background-image: url('svg/wave.svg');
   background-repeat: no-repeat;
@@ -78,6 +69,7 @@ body {
 .box2 {
   background: aquamarine;
 }
+
 /* Normalize.css
 ----------------------------------------------- */
 
@@ -311,8 +303,21 @@ table {
   border-spacing: 0;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 980px) {
   .header-text {
-    font-size: 2rem;
+    font-size: 3.3rem;
+  }
+  .oval {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 685px) {
+  .header-text {
+    font-size: 3.3rem;
+  }
+  .oval {
+    height: 200px;
+    width: 200px;
   }
 }
