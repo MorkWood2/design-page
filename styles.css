@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .top-background {
   background: linear-gradient(rgb(81, 130, 252), rgb(7, 50, 160));
 }
@@ -33,7 +36,7 @@
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   width: inherit;
   height: inherit;
-  background: #ffb2e8;
+  background: #ffc9ef;
   background-image: url('svg/open-doodles-plant.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -59,15 +62,44 @@
   /* height: 1000px; */
 }
 .content-box {
+  font-family: 'Vollkorn', serif;
   z-index: -1;
   height: 800px;
   width: 50%;
+  background: #faebd7;
 }
 .box1 {
-  background: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 3rem;
+  color: #604905;
+}
+.box1 > h1 {
+  padding-top: 350px;
+  color: #2e2e2e;
+}
+.box1 > p {
+  font-size: 20px;
 }
 .box2 {
-  background: aquamarine;
+  /* background: #ffd166;
+  background-image: url('svg/red.svg'); */
+  background-image: url('svg/triangle.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 500px;
+}
+
+.pattern {
+  background-image: url('svg/beigeWave.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  height: 500px;
+  width: 100%;
+  /* background: black; */
 }
 
 /* Normalize.css
@@ -319,5 +351,28 @@ table {
   .oval {
     height: 200px;
     width: 200px;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .top {
+    align-items: center;
+    padding: 0;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* padding-top: 6rem; */
+  }
+  .oval {
+    height: 200px;
+    width: 200px;
+  }
+  .header-text {
+    font-size: 2.6rem;
+    width: 100%;
+    padding: 10px 25px;
   }
 }
