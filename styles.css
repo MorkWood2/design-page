@@ -93,14 +93,18 @@
 }
 
 .pattern {
+  background: #dce4f2;
   background-image: url('svg/beigeWave.svg');
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 100%;
-  height: 500px;
+  height: 1000px;
   width: 100%;
-  /* background: black; */
 }
+/* .blue-background {
+  background: #dce4f2;
+  height: 100px;
+} */
 
 /* Normalize.css
 ----------------------------------------------- */
