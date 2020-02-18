@@ -160,7 +160,7 @@
 .info-container {
   background: url('svg/blobs/infoBlob.svg');
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: bottom left;
   border: 1px solid rgb(204, 130, 130);
   height: 600px;
   background-color: #dce4f2;
@@ -175,13 +175,14 @@
 .infoBox1 {
   background: url('svg/plants/plant1.svg'), url('svg/plants/plant2.svg');
   background-repeat: no-repeat, no-repeat;
-  background-position: 15% 80%, 40% 90%;
+  background-position: 51% 70%, 11% 92%;
 }
 .infoBox1 > p {
   font-family: 'Lato', sans-serif;
   font-size: 80px;
-  padding: 0;
+  padding-top: 10px;
   margin: 0;
+  color: #313e54;
 }
 .infoBox2 {
 }
@@ -194,25 +195,59 @@
 }
 .tech-container > h2 {
   padding: 0 30px;
-  color: #8da9da;
+  color: #373c43;
+  font-family: 'Montserrat', sans-serif;
 }
 .column-element {
   display: flex;
   flex-direction: column;
   width: 400px;
+  font-family: 'Lato', sans-serif;
 }
 .column-element > p {
   padding-left: 55px;
-  color: #604905;
+  color: #61666e;
+}
+.inline-element > h3 {
+  color: #313e54;
 }
 .inline-element {
   display: flex;
   flex-direction: row;
-  color: #faebd7;
+  color: #7289f0;
 }
 .inline-element > img {
   padding-right: 20px;
 }
+.water-container {
+  border: 1px solid rgb(159, 226, 150);
+  height: 600px;
+  background-color: #dce4f2;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.waterBox {
+  border: #ffc9ef 1px solid;
+  flex-grow: 1;
+}
+.waterBox1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  max-width: 600px;
+}
+.waterBox1 > h1 {
+  font-size: 80px;
+}
+.waterBox1 > p {
+}
+.waterBox2 {
+  background: url('svg/plants/waterApp.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Normalize.css
 ----------------------------------------------- */
 

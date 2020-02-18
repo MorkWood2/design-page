@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363px" height="362px" viewBox="0 0 363 362" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>waterApp</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-3" transform="translate(-464.000000, -439.000000)">
+            <g id="waterApp" transform="translate(464.500000, 439.000000)">
+                <circle id="Oval" fill="#FFFFFF" fill-rule="evenodd" cx="181" cy="181" r="181"></circle>
+                <g id="plantApp">
+                    <path d="M181,2.89753791e-14 C280.96354,2.89753791e-14 362,81.0175632 362,180.957792 C362,232.976216 340.045975,279.868198 304.895981,312.877724 L304.895775,79.0714286 C304.895775,66.3688793 294.598324,56.0714286 281.895775,56.0714286 L281.895775,56.0714286 L81.1239437,56.0714286 C68.4213944,56.0714286 58.1239437,66.3688793 58.1239437,79.0714286 L58.1239437,79.0714286 L58.1201409,313.824702 C22.3776331,280.768194 0,233.475672 0,180.957792 C0,81.0175632 81.0364603,2.89753791e-14 181,2.89753791e-14 Z" id="Combined-Shape" fill="#FCDCDC" fill-rule="evenodd"></path>
+                    <text id="Philodendron" fill="#6D6358" fill-rule="evenodd" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold">
+                        <tspan x="102.991549" y="153">Philodendron</tspan>
+                    </text>
+                    <text id="🌱" font-family="AppleColorEmoji, Apple Color Emoji" font-size="46" font-weight="normal" fill="#000000">
+                        <tspan x="149.898592" y="117.948052">🌱</tspan>
+                    </text>
+                    <rect id="Rectangle" stroke="#E8E8E8" stroke-width="1" x="87.1760563" y="180.948052" width="188.667606" height="52.012987" rx="7"></rect>
+                    <rect id="Rectangle" stroke="#CACACA" stroke-width="1" fill="#D9E8FF" fill-rule="evenodd" x="87.1760563" y="180.948052" width="131.56338" height="52.012987" rx="7"></rect>
+                    <text id="70%-Moisture*" fill="#6D6358" fill-rule="evenodd" font-family="LucidaGrande-Bold, Lucida Grande" font-size="12" font-weight="bold">
+                        <tspan x="141.740845" y="261.918831">70% Moisture*</tspan>
+                    </text>
+                    <rect id="Rectangle" stroke="#FF9191" stroke-width="1" fill="#FFBA7C" fill-rule="evenodd" x="123.885915" y="281.876623" width="115.247887" height="28.5649351" rx="7"></rect>
+                    <text id="Water-Soon" fill="#FFFFFF" fill-rule="evenodd" font-family="LucidaGrande-Bold, Lucida Grande" font-size="18" font-weight="bold">
+                        <tspan x="128.484507" y="302.659091">Water Soon</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
