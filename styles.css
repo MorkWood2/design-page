@@ -178,12 +178,40 @@
   background-position: 15% 80%, 40% 90%;
 }
 .infoBox1 > p {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 80px;
   padding: 0;
   margin: 0;
 }
 .infoBox2 {
+}
+.tech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+.tech-container > h2 {
+  padding: 0 30px;
+  color: #8da9da;
+}
+.column-element {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.column-element > p {
+  padding-left: 55px;
+  color: #604905;
+}
+.inline-element {
+  display: flex;
+  flex-direction: row;
+  color: #faebd7;
+}
+.inline-element > img {
+  padding-right: 20px;
 }
 /* Normalize.css
 ----------------------------------------------- */
