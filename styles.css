@@ -175,7 +175,15 @@
 .infoBox1 {
   background: url('svg/plants/plant1.svg'), url('svg/plants/plant2.svg');
   background-repeat: no-repeat, no-repeat;
-  background-position: 25% 75%, 50% 50%;
+  background-position: 15% 80%, 40% 90%;
+}
+.infoBox1 > p {
+  font-family: 'Vollkorn', serif;
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+}
+.infoBox2 {
 }
 /* Normalize.css
 ----------------------------------------------- */
