@@ -157,7 +157,26 @@
   width: 75px;
   height: 75px;
 }
-
+.info-container {
+  background: url('svg/blobs/infoBlob.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  border: 1px solid rgb(204, 130, 130);
+  height: 600px;
+  background-color: #dce4f2;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.infoBox {
+  border: #ffc9ef 1px solid;
+  flex-grow: 1;
+}
+.infoBox1 {
+  background: url('svg/plants/plant1.svg'), url('svg/plants/plant2.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 25% 75%, 50% 50%;
+}
 /* Normalize.css
 ----------------------------------------------- */
 
