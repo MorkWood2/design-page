@@ -161,7 +161,7 @@
   background: url('svg/blobs/infoBlob.svg');
   background-repeat: no-repeat;
   background-position: bottom left;
-  border: 1px solid rgb(204, 130, 130);
+  /* border: 1px solid rgb(204, 130, 130); */
   height: 600px;
   background-color: #dce4f2;
   width: 100%;
@@ -169,7 +169,7 @@
   flex-direction: row;
 }
 .infoBox {
-  border: #ffc9ef 1px solid;
+  /* border: #ffc9ef 1px solid; */
   flex-grow: 1;
 }
 .infoBox1 {
@@ -181,6 +181,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 80px;
   padding-top: 10px;
+  padding-left: 126px;
   margin: 0;
   color: #313e54;
 }
@@ -220,7 +221,7 @@
   padding-right: 20px;
 }
 .water-container {
-  border: 1px solid rgb(159, 226, 150);
+  /* border: 1px solid rgb(159, 226, 150); */
   height: 600px;
   background-color: #dce4f2;
   width: 100%;
@@ -228,7 +229,7 @@
   flex-direction: row;
 }
 .waterBox {
-  border: #ffc9ef 1px solid;
+  /* border: #ffc9ef 1px solid; */
   flex-grow: 1;
 }
 .waterBox1 {
@@ -241,13 +242,25 @@
   font-size: 80px;
 }
 .waterBox1 > p {
+  color: #61666e;
 }
 .waterBox2 {
   background: url('svg/plants/waterApp.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.footer {
+  background-image: url('svg/footerWave.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  width: 100%;
+  height: 1000px;
+}
+/* .footer-container {
+  background: black;
+  height: 200px;
+} */
 /* Normalize.css
 ----------------------------------------------- */
 
