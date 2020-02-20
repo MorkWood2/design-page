@@ -261,6 +261,31 @@
   height: 700px;
   margin-top: -2px;
 }
+.footer-pricing {
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+.priceBox {
+  height: 50px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #dce4f2;
+  text-align: center;
+  color: #313e53;
+  margin: 30px 0;
+  font-size: 27px;
+}
+.priceBox + p {
+  color: #dce4f2;
+}
 /* Normalize.css
 ----------------------------------------------- */
 
