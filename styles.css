@@ -1,6 +1,32 @@
 * {
   box-sizing: border-box;
 }
+nav {
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+}
+.nav-left {
+  position: absolute;
+  margin-left: 30px;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 9px 20px 0 0;
+  font-family: 'lato';
+  font-size: 20px;
+  color: #ffffff;
+}
+.nav-right {
+  padding: 0 30px;
+  cursor: pointer;
+}
+
 .top-background {
   background: linear-gradient(rgb(81, 130, 252), rgb(7, 50, 160));
 }
@@ -116,7 +142,7 @@
   flex-direction: column;
 }
 .blue-blob > h2 {
-  color: #ffc9ef;
+  color: #dce4f2;
 }
 .blue-blob-container {
   /* border: blue solid 1px; */
@@ -135,6 +161,9 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+.blob-box > p {
+  font-family: 'Lato', sans-serif;
 }
 .imgBackground {
   background-repeat: no-repeat;
@@ -227,6 +256,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  font-family: 'Lato', sans-serif;
 }
 .waterBox {
   /* border: #ffc9ef 1px solid; */
@@ -240,6 +270,7 @@
 }
 .waterBox1 > h1 {
   font-size: 80px;
+  color: #313e54;
 }
 .waterBox1 > p {
   color: #61666e;
@@ -282,6 +313,9 @@
   color: #313e53;
   margin: 30px 0;
   font-size: 27px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
 }
 .priceBox + p {
   color: #dce4f2;
@@ -523,7 +557,7 @@ table {
     padding-top: 0rem;
   }
 } */
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   .header-text {
     font-size: 3.3rem;
   }
@@ -532,7 +566,7 @@ table {
     width: 200px;
   }
 }
-@media only screen and (max-width: 685px) {
+/* @media only screen and (max-width: 685px) {
   .header-text {
     font-size: 3.3rem;
   }
@@ -540,8 +574,8 @@ table {
     height: 200px;
     width: 200px;
   }
-}
-@media only screen and (max-width: 666px) {
+} */
+@media only screen and (max-width: 777px) {
   .top {
     align-items: center;
     padding: 0;
@@ -550,9 +584,7 @@ table {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
-    /* padding-top: 6rem; */
+    padding-top: 145px;
   }
   .oval {
     height: 200px;
@@ -561,6 +593,6 @@ table {
   .header-text {
     font-size: 2.6rem;
     width: 100%;
-    padding: 10px 25px;
+    padding: 10px 25px 60px 25px;
   }
 }
