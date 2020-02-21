@@ -219,8 +219,8 @@ nav {
   margin: 0;
   color: #313e54;
 }
-/* .infoBox2 {
-} */
+.infoBox2 {
+}
 .tech-container {
   display: flex;
   justify-content: center;
@@ -583,12 +583,18 @@ table {
 @media only screen and (max-width: 950px) {
   .info-container {
     flex-direction: column;
+    height: auto;
+    background-position: top left;
   }
   .infoBox1 {
     padding-bottom: 300px;
   }
   .infoBox1 > p {
     padding-left: 40px;
+  }
+  .water-container {
+    flex-direction: column;
+    height: auto;
   }
 }
 
