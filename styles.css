@@ -17,7 +17,7 @@ nav {
 .nav-container {
   display: flex;
   justify-content: flex-end;
-  margin: 9px 20px 0 0;
+  margin: 19px 20px 0 0;
   font-family: 'lato';
   font-size: 20px;
   color: #ffffff;
@@ -219,8 +219,8 @@ nav {
   margin: 0;
   color: #313e54;
 }
-.infoBox2 {
-}
+/* .infoBox2 {
+} */
 .tech-container {
   display: flex;
   justify-content: center;
@@ -585,20 +585,36 @@ table {
     flex-direction: column;
     height: auto;
     background-position: top left;
+    text-align: justify;
   }
   .infoBox1 {
     padding-bottom: 300px;
   }
   .infoBox1 > p {
     padding-left: 40px;
+    font-size: 100px;
   }
   .water-container {
     flex-direction: column;
     height: auto;
   }
+  .column-element {
+    width: auto;
+  }
+  .column-element > p {
+    padding: 0 20px;
+    text-align: justify;
+  }
+  .inline-element {
+    padding-left: 10px;
+  }
   /* Needs refactor VVVV */
   .waterBox1 {
     padding: 0;
+    text-align: center;
+  }
+  .waterBox1 > p {
+    padding: 0 20px;
   }
   .waterBox2 {
     height: 400px;
@@ -606,6 +622,9 @@ table {
 }
 
 @media only screen and (max-width: 775px) {
+  .nav-right {
+    padding: 0 15px;
+  }
   .top {
     align-items: center;
     padding: 0;
@@ -638,6 +657,9 @@ table {
   /* .blob-box {
     background: #81a4cd;
   } */
+  .infoBox1 > p {
+    font-size: 62px;
+  }
   .blue-blob > h2 {
     /* padding-bottom: 220px; */
     color: #313e54;
