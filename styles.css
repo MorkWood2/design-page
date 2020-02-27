@@ -18,6 +18,10 @@ nav {
   color: #0733a1;
   background: #ffffff;
   border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
+
   /* padding: 10px; */
 }
 .nav-container {
@@ -48,7 +52,9 @@ span {
   background-size: 100%;
   /* z-index: -1; */
   /* width: 100%; */
-  height: 550px;
+  /* height: 550px; */
+  height: 625px;
+
   padding: 5rem;
 }
 .header-container {
@@ -78,12 +84,14 @@ span {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.header-container-right {
+  width: 50%;
+}
 .header-text {
   color: #ffffff;
   font-size: 5rem;
   font-family: 'Vollkorn', serif;
   font-weight: 600;
-  width: 50%;
 }
 
 .content {
@@ -97,6 +105,31 @@ span {
   flex-wrap: wrap; */
   margin-top: -2px;
   /* height: 1000px; */
+}
+.btn-container {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.header-btn {
+  background: #ffa5a5;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 228px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
 }
 .content-container {
   display: flex;
@@ -183,7 +216,7 @@ span {
 }
 .blob-box > p {
   font-family: 'Lato', sans-serif;
-  color: #ffffff;
+  color: #f8f8f8;
 }
 .imgBackground {
   background-repeat: no-repeat;
@@ -222,6 +255,12 @@ span {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.brand1 {
+  padding-top: 15px;
+}
+.brand2 {
+  padding-top: 10px;
 }
 .brands > img {
   width: 100px;
@@ -677,11 +716,18 @@ table {
   .oval {
     height: 200px;
     width: 200px;
+    margin-top: 220px;
+  }
+  .header-container-right {
+    width: 100%;
+  }
+  .btn-container {
+    margin: 0 0 20px 0;
   }
   .header-text {
     font-size: 2.6rem;
     width: 100%;
-    padding: 0 0 20px 0;
+    padding: 60px 5px 60px 5px;
     text-align: center;
   }
   .blue-blob-container {
